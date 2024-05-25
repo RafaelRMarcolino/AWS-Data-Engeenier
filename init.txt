@@ -3,4 +3,23 @@ aws cli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
 jupyter lab
+python3 -m venv demo-venv
+pip install configparser
+pip install awscli
+
+vinculando acess key
+
+terminal:    aws configure
+AWS Access Key ID [None]: ***
+AWS Secret Access Key [None]: *****
+Default region name [None]:
+Default output format [None]:
+
+l@DESKTOP-21RUQLT:~$ cat .aws/credentials (mostar as chaves)
+
+aws s3 ls 
+
+aws configure --profile awsjstam
+
+rm .aws/credentials (remover)
 
