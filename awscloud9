@@ -12,4 +12,28 @@ ITVCloud91,**********,https://ralfsrr.signin.aws.amazon.com/console
 acessar a cloud9 (IDE AWS) / criar um ambinete
 awsdemo
 
+------------------
+no terminal do cloud9
+
+comando indica que o serviço do Docker foi iniciado no sistema. 
+sudo systemctl status docker
+
+diagnósticos e monitoramento do servidor web Apache em um sistema Linux.
+sudo systemctl status httpd
+
+instalando python
+sudo yum -y update
+sudo yum -y install bzip2-devel
+sudo yum -y install xz-devel
+pyenv install 3.9.13
+pyenv global 3.9.13
+
+java --version
+
+javac --version
+
+
+
+
+
 
