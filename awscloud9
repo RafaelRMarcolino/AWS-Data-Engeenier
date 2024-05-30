@@ -6,8 +6,7 @@
      /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
  ----------------------------------------------------------------- 
 
- criado um usuario no IAM
-ITVCloud91,**********,https://ralfsrr.signin.aws.amazon.com/console
+
 
 acessar a cloud9 (IDE AWS) / criar um ambinete
 awsdemo
@@ -48,6 +47,11 @@ docker ps -a
 
 docker rm id*****
 
+
+arn:aws:iam::553437176408:group/ITVCloud9
+
+
+https://ralfsrr.signin.aws.amazon.com/console
 
 
 
