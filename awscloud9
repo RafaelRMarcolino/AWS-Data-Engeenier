@@ -35,6 +35,19 @@ p
 
 
 
+29--------- Docker clod9 --------------------------------------------
+in cloud9
+
+aws s3 ls
+
+$ sudo systemctl status docker
+
+sudo docker run hello-world
+
+docker ps -a
+
+docker rm id*****
+
 
 
 
