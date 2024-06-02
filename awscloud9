@@ -55,3 +55,29 @@ https://ralfsrr.signin.aws.amazon.com/console
 
 
 
+31 webaplications ------------------------------------------
+
+verificar se a conexao esta funcionando ou não
+sudo systemctl status httpd
+
+instalação
+sudo systemctl start httpd
+sudo systemctl status
+
+sudo yum install telnet -y
+
+
+pegar o Nome do DNS de IP publico (somente IPv4) do EC2
+
+
+ec2 / segurança/ grupo de segurança (entrar)/ editar regras de entrada / personalizar a regra para porta 8888
+
+
+jupyter lab --ip 0.0.0.0
+
+telnet localhost 8888
+
+verificar as regras de segurança do http da c2
+
+linkjupter
+http://54.196.243.67:8888/
